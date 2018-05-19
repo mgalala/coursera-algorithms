@@ -13,7 +13,7 @@ public class QuickUnion {
 	public QuickUnion(int total) {
 		id = new int[total];
 		for (int i = 0; i < total; i++) {
-			getId()[i] = i;
+			id[i] = i;
 		}
 	}
 
@@ -24,12 +24,12 @@ public class QuickUnion {
 	public void union(int p, int q) {
 		int rootOfP = rootOf(p);
 		int rootOfQ = rootOf(q);
-		getId()[rootOfP] = rootOfQ;
+		id[rootOfP] = rootOfQ;
 	}
 
 	private int rootOf(int i) {
-		while (i != getId()[i]) {
-			i = getId()[i];
+		while (i != id[i]) {
+			i = id[i];
 		}
 		return i;
 	}
