@@ -7,32 +7,35 @@ package com.mgalala.algorithms;
  * @author mgalala
  *
  */
-public class QuickFind {
-
+public class QuickUnion {
 	private int[] id;
 
-	public QuickFind(int total) {
+	public QuickUnion(int total) {
 		id = new int[total];
 		for (int i = 0; i < total; i++) {
-			id[i] = i;
+			getId()[i] = i;
 		}
 	}
 
 	public boolean connected(int p, int q) {
-		return id[p] == id[q];
+		return rootOf(p) == rootOf(q);
 	}
 
 	public void union(int p, int q) {
-		int pId = id[p];
-		int qId = id[q];
-		for (int i = 0; i < id.length; i++) {
-			if (id[i] == pId) {
-				id[i] = qId;
-			}
+		int rootOfP = rootOf(p);
+		int rootOfQ = rootOf(q);
+		getId()[rootOfP] = rootOfQ;
+	}
+
+	private int rootOf(int i) {
+		while (i != getId()[i]) {
+			i = getId()[i];
 		}
+		return i;
 	}
 
 	public int[] getId() {
 		return id;
 	}
+
 }
