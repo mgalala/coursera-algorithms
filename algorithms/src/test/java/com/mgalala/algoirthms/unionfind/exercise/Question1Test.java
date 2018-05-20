@@ -1,24 +1,24 @@
 /**
  * 
  */
-package com.mgalala.algoirthms.exercise;
+package com.mgalala.algoirthms.unionfind.exercise;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.mgalala.algorithms.excersie.Question2;
+import com.mgalala.algorithms.unionfind.excersie.Question1;
 
 /**
  * @author mgalala
  *
  */
-public class Question2Test {
+public class Question1Test {
 
-	private Question2 weightedQuickUnion;
+	private Question1 weightedQuickUnion;
 
 	@Test
 	public void testWeightedUnionFind() {
-		weightedQuickUnion = new Question2(10);
+		weightedQuickUnion = new Question1(10);
 		weightedQuickUnion.union(0, 5);
 		weightedQuickUnion.union(0, 6);
 		weightedQuickUnion.union(7, 2);
@@ -26,7 +26,6 @@ public class Question2Test {
 		weightedQuickUnion.union(9, 0);
 		weightedQuickUnion.union(7, 3);
 
-		Assert.assertEquals(9, weightedQuickUnion.find(3));
-		Assert.assertEquals(1, weightedQuickUnion.find(1));
+		Assert.assertEquals(7, weightedQuickUnion.getCount());
 	}
 }

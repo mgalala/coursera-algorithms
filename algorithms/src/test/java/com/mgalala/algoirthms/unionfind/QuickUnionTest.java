@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.mgalala.algoirthms;
+package com.mgalala.algoirthms.unionfind;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.mgalala.algorithms.QuickUnion;
-import com.mgalala.algorithms.WeightedQuickUnion;
+import com.mgalala.algorithms.unionfind.QuickUnion;
+import com.mgalala.algorithms.unionfind.WeightedQuickUnion;
 
 /**
  * @author mgalala

@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.mgalala.algoirthms;
+package com.mgalala.algoirthms.unionfind;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.mgalala.algorithms.QuickFind;
+import com.mgalala.algorithms.unionfind.QuickFind;
 
 /**
  * @author mgalala

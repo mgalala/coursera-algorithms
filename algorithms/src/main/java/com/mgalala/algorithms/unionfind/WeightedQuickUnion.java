@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algorithms;
+package com.mgalala.algorithms.unionfind;
 
 /**
  * @author mgalala

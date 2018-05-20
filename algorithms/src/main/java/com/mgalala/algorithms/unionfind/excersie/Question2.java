@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algorithms.excersie;
+package com.mgalala.algorithms.unionfind.excersie;
 
 /**
  * @author mgalala Union-find with specific canonical element. Add a method

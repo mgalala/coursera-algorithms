@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algorithms.excersie;
+package com.mgalala.algorithms.unionfind.excersie;
 
 /**
  * @author mgalala Social network connectivity. Given a social network
