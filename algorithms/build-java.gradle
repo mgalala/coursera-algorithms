@@ -19,7 +19,7 @@ dependencies{
 	testCompile library.mockito_all
 	
 	compile group: 'commons-lang', name: 'commons-lang', version: '2.2'
-	
+	compile group: 'com.googlecode.princeton-java-algorithms', name: 'algorithms', version: '4.0.1'
 }
 
 /* Per default GRADLE stops the build if one single test fails. We want to have all tests executed. */

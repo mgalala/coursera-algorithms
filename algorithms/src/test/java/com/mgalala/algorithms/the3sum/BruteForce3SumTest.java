@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algoirthms.the3sum;
+package com.mgalala.algorithms.the3sum;
 
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;

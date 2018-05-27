@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algoirthms.collections;
+package com.mgalala.algorithms.collections;
 
 import org.junit.Assert;
 import org.junit.Test;

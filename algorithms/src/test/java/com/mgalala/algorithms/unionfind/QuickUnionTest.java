@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algoirthms.unionfind;
+package com.mgalala.algorithms.unionfind;
 
 import org.junit.Assert;
 import org.junit.Test;

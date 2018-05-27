@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mgalala.algoirthms.binarysearch;
+package com.mgalala.algorithms.binarysearch;
 
 import java.util.Arrays;
 
