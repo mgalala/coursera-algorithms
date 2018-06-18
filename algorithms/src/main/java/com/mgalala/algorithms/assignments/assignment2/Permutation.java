@@ -2,8 +2,8 @@ package com.mgalala.algorithms.assignments.assignment2;
 
 import java.util.NoSuchElementException;
 
-import edu.princeton.cs.introcs.StdIn;
-import edu.princeton.cs.introcs.StdOut;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * 

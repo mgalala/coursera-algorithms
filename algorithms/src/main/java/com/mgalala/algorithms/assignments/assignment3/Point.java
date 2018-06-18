@@ -2,7 +2,7 @@ package com.mgalala.algorithms.assignments.assignment3;
 
 import java.util.Comparator;
 
-import edu.princeton.cs.introcs.StdDraw;
+import edu.princeton.cs.algs4.StdDraw;
 
 /**
  * 

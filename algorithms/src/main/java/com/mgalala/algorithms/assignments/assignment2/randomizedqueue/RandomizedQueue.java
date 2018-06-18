@@ -6,7 +6,7 @@ package com.mgalala.algorithms.assignments.assignment2.randomizedqueue;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import edu.princeton.cs.introcs.StdRandom;
+import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * @author mgalala

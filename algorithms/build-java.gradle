@@ -7,19 +7,22 @@
    ============================================================================
  */
 apply plugin: 'java'
+
 	
 /* Setup UTF-8 for compile AND test compilation*/
 [ compileJava, compileTestJava ]*.options*.encoding = 'UTF-8'
 
 sourceCompatibility = '1.8'
-	
+
 /* Default dependencies for all sub projects. */
 dependencies{
 	testCompile library.junit
 	testCompile library.mockito_all
 	
 	compile group: 'commons-lang', name: 'commons-lang', version: '2.2'
-	compile group: 'com.googlecode.princeton-java-algorithms', name: 'algorithms', version: '4.0.1'
+	//compile group: 'com.googlecode.princeton-java-algorithms', name: 'algorithms', version: '4.0.1'
+	compile files('/lib/algs4.jar')
+	
 }
 
 /* Per default GRADLE stops the build if one single test fails. We want to have all tests executed. */

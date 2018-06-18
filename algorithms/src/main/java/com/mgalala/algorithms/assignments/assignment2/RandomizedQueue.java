@@ -3,7 +3,7 @@ package com.mgalala.algorithms.assignments.assignment2;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import edu.princeton.cs.introcs.StdRandom;
+import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * @author mgalala Question: Randomized queue. A randomized queue is similar to

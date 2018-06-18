@@ -1,6 +1,6 @@
 package com.mgalala.algorithms.assignments.assignment1;
 
-import edu.princeton.cs.algorithms.WeightedQuickUnionUF;
+import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
 
